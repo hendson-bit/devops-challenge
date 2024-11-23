@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # DevOps Challenge - Salaryfits
 
 Este projeto implementa uma aplicação web simples utilizando **Docker** e **Flask**. A solução é estruturada para demonstrar habilidades práticas em DevOps, incluindo automação com scripts Bash, versionamento com Git e configuração de containers.
