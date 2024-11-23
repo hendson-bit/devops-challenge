@@ -37,7 +37,7 @@ Aqui estão alguns comandos para gerenciar o ambiente do projeto:
 
 ### Parar e remover containers:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ### Construir e iniciar novamente:
