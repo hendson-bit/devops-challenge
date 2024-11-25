@@ -57,3 +57,23 @@ devops-challenge/
 ├── deploy.sh            # Script de automação para deploy da aplicação
 ├── README.md            # Documentação do projeto
 ```
+## 💡 Decisões Tomadas Durante o Processo
+
+1. **Uso do Flask:**  
+   Foi escolhido por ser um microframework leve, rápido de configurar e suficiente para o escopo do desafio.
+
+2. **Docker e Docker Compose:**  
+   - **Docker**: Utilizado para isolar a aplicação, garantindo consistência entre diferentes ambientes.  
+   - **Docker Compose**: Escolhido para facilitar a orquestração de serviços e simplificar o fluxo de execução.
+
+3. **Script de Deploy:**  
+   Criado para automatizar o processo de build, inicialização e testes do ambiente, proporcionando facilidade na execução.
+
+4. **Estrutura do Repositório:**  
+   A organização dos arquivos foi planejada para garantir clareza, seguindo boas práticas para projetos DevOps.
+
+5. **Testes de Ambiente:**  
+   Foram realizados testes em diferentes ambientes para garantir a compatibilidade, com ajustes no script `deploy.sh` para abranger instalações do Docker Compose v2.
+
+6. **Documentação:**  
+   O README foi estruturado de forma detalhada para facilitar a compreensão do projeto e agilizar a replicação do ambiente.
